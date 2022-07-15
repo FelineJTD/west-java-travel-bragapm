@@ -16,6 +16,10 @@ export default function Home() {
     <div className='overflow-hidden'>
       <Head>
         <title>West Java Travel</title>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Plan your trips to West Java and explore the endless possibilities." />
+        <meta name="keywords" content="West Java travel, destinasi wisata Jawa Barat, West Java official website, website official Jawa Barat" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Navbar activePage='home' />
       <HomeHeroSection />

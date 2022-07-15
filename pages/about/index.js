@@ -73,7 +73,7 @@ export default function About() {
             </div>
             <div className='pt-20 md:pt-36' ref={thumbnailRef} id='thumbnail'>
                 <div className='w-full overflow-hidden md:px-[7.5rem]'>
-                    <img src='/img-about-thumbnail.jpg' className='w-full h-full object-cover md:rounded-3xl' />
+                    <img alt='' src='/img-about-thumbnail.jpg' className='w-full h-full object-cover md:rounded-3xl' />
                 </div>
             </div>
             <div className='flex flex-row items-start'>

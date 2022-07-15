@@ -19,13 +19,13 @@ export const TravelRecommendationItem = ({ data }) => {
 
     const date = new Date(data.created_at);
 
-    const errorImage = <img src='/img-about-thumbnail.jpg' className='rounded-md h-[160px] md:h-[80px] w-full md:w-[80px] object-cover mb-4 md:ml-20' />
+    const errorImage = <img alt='' src='/img-about-thumbnail.jpg' className='rounded-md h-[160px] md:h-[80px] w-full md:w-[80px] object-cover mb-4 md:ml-20' />
 
     return (
         <Link href={`/travel-tips/${data.id}`}>
             <a
                 className='flex flex-col md:flex-row-reverse flex-none max-w-[254px] md:max-w-full md:justify-between hover:bg-bordercolor hover:bg-opacity-20 transition-all md:p-2'>
-                {!data.travel_tips_files ? errorImage : !data.travel_tips_files[0] ? errorImage : <img src={`https://panel.westjavatravel.com/assets/${data.travel_tips_files[0]}`} className='rounded-md h-[160px] md:h-[80px] w-full md:w-[80px] object-cover mb-4 md:ml-20' />}
+                {!data.travel_tips_files ? errorImage : !data.travel_tips_files[0] ? errorImage : <img alt='' src={`https://panel.westjavatravel.com/assets/${data.travel_tips_files[0]}`} className='rounded-md h-[160px] md:h-[80px] w-full md:w-[80px] object-cover mb-4 md:ml-20' />}
                 <div className='flex flex-col'>
                     <h4 className='font-bold font-montserrat text-dark text-sm md:text-base mb-2.5 md:mb-3 twoline-text'>{data.title}</h4>
                     <p className='font-karla text-neutral text-xs md:text-sm mb-2.5 md:mb-3 twoline-text'>{data.deskripsi}</p>

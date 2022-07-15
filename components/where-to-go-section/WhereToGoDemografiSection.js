@@ -33,7 +33,7 @@ export const WhereToGoDemografiSection = ({ demografiSectionRef, region }) => {
                 <h4 className='font-montserrat font-bold text-dark text-xl md:text-2xl'>About</h4>
                 <p className='pt-5 text-neutral font-karla text-sm md:text-lg'>{regionContent[region].about}</p>
                 {/* <p className='pt-5 text-neutral font-karla text-sm md:text-lg'>Untuk lokasi untuk berswafoto yang unik, maka kota ini cocok jadi tempat yang sangat tepat! Untuk Sobat Pesona wajib banget mengunjungi Tebing Keraton atau The Royal (Palace) Cliff, Puncak Bukit Moko, Eurad Highland Lembang, atau Stone Garden Citatah. Nah, di Lembang juga ada pula atraksi tematis yang menarik dijelajahi tepatnya di Farm House, dan De Ranch yang hadir dengan nuansa koboi.</p> */}
-                {/* <img src='/img-about-history.png' className='pt-5 w-full rounded-2lg' /> */}
+                {/* <img alt='' src='/img-about-history.png' className='pt-5 w-full rounded-2lg' /> */}
                 {/* <p className='font-karla text-neutral text-xs md:text-base text-center pt-2.5 pb-5'>Ini adalah caption gambar</p> */}
                 {/* <p className='pt-5 text-neutral font-karla text-sm md:text-lg'>Suasana sejuk dan pemandangan hijau di berbagai sudut dataran tinggi di Bandung sangat cocok jadi tempat rileksasi pikiran. Sobat Pesona bisa mencoba berkunjung ke kebun teh asri di kawasan Ciwidey dan menikmati udara segar dengan bebas. Kalau mau destinasi yang lebih hits, menelusuri setiap sisi hutan pinus di Cikole yang cantik nan instagenic adalah jawabannya, Sobat Pesona! Selain itu, ada pula glamping seru dengan pilihan panorama alam yang menakjubkan, seperti di Lakeside Rancabali, The Lodge Maribaya, dan Trizara Resort. </p>
                 <p className='pt-5 text-neutral font-karla text-sm md:text-lg'>Yang tak boleh ketinggalan, apalagi kalau bukan wisata alam ke Gunung Tangkuban Perahu. Ya! Sobat Pesona harus menyaksikan keindahan kawah yang erat kaitannya dengan cerita rakyat Jawa Barat berjudul Sangkuriang itu. Menurut alkisah, bentuk Gunung Tangkuban perahu yang terlihat seperti gunung terbalik ini berasal dari perahu buatan Sangkuriang yang menjadi syarat untuk bisa menikahi gadis tercantik yang ternyata adalah sang ibunda, Dayang Sumbi. Namun syarat itu gagal terpenuhi hingga Sangkuriang menendang perahu tersebut hingga terbalik dan menurut cerita itu lah awal terciptanya Gunung Tangkuban Perahu.</p>
@@ -41,7 +41,7 @@ export const WhereToGoDemografiSection = ({ demografiSectionRef, region }) => {
                 <p className='pt-5 text-neutral font-karla text-sm md:text-lg'>Kalau Sobat Pesona yang ingin mencari spot foto yang manis dan penuh warna pastel yang kekinian, kunjungi saja Rabbit Town! Selain itu ada pula Bandung Amazing Art World yang menyediakan latar foto instagrammable dengan efek 3D hingga wahana Dunia Terbalik nan unik. </p> */}
                 <h4 className='pt-5 font-montserrat font-bold text-dark text-xl md:text-2xl capitalize'>Akses Masuk Ke {region}</h4>
                 <p className='pt-5 text-neutral font-karla text-sm md:text-lg'>{regionContent[region].access}</p>
-                {/* <img src='/img-about-tradition.png' className='pt-5 w-full rounded-2lg' /> */}
+                {/* <img alt='' src='/img-about-tradition.png' className='pt-5 w-full rounded-2lg' /> */}
                 {/* <p className='font-karla text-neutral text-xs md:text-base text-center pt-2.5 pb-5'>Ini adalah caption gambar</p> */}
             </div>
             <a
@@ -52,7 +52,7 @@ export const WhereToGoDemografiSection = ({ demografiSectionRef, region }) => {
                 className={`flex flex-row items-center py-4 px-6 border border-bordercolor rounded-full mt-3 md:hidden ${isShowAllContent ? 'bg-[#E4ECF4]' : 'bg-white'}`}
             >
                 <span className='uppercase text-sm text-dark font-karla font-bold mr-2'>{isShowAllContent ? 'tampilkan sedikit' : 'tampilkan lebih banyak'}</span>
-                <img src='/ic-dropdown-arrow.svg' className={`${isShowAllContent ? 'rotate-180' : ''}`}/>
+                <img alt='' src='/ic-dropdown-arrow.svg' className={`${isShowAllContent ? 'rotate-180' : ''}`}/>
             </a>
         </section>
     )

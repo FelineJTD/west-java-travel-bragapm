@@ -11,7 +11,7 @@ export const Footer = () => {
         <section className='bg-[#086CB4] flex flex-col px-5 md:px-20 pt-14 pb-8'>
             <div className='flex-col md:flex-row flex md:justify-between md:items-start'>
                 <div className='flex flex-col items-center md:items-start md:max-w-[629px]'>
-                    <img src='/ic-logo.svg' className='w-[100px] md:w-[126.27px]' />
+                    <img src='/ic-logo.svg' alt="Logo" className='w-[100px] md:w-[126.27px]' />
                     <p className='font-karla text-xs md:text-sm text-[#CBD9EA] mt-8 text-center md:text-left'>This is the official website of the West Java Tourism Department, Indonesia. The content listed on this website is intended for informational rather than commercial purposes. Any sales displayed are intended as a sign of partnership and will always direct you to our partner sites.</p>
                     <div className='mt-8 flex flex-row space-x-3'>
                         <a href='https://www.facebook.com/Smiling-West-Java-104281914974864/' target='_blank'>

@@ -9,7 +9,7 @@ export const DestinationImage = ({ image }) => {
     if (!image[0].directus_files_id) return errorImage;
 
     return (
-        <img onError={(e) => {
+        <img alt='' onError={(e) => {
             e.target.src = '/img-placeholder.png'
         }} src={`https://panel.westjavatravel.com/assets/${image[0].directus_files_id}?key=small`} className='w-[90px] h-[72px] md:w-[100px] md:h-[90px] rounded-md md:rounded-2lg flex-none' />
     )

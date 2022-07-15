@@ -39,7 +39,7 @@ export const Navbar = ({ activePage }) => {
             <div ref={tipTop} />
             <div className={`flex flex-row justify-between fixed top-0 left-0 right-0 z-40 p-5 md:px-20 ${activePage != 'home' ? `bg-white ${isTipTop ? 'shadow-none border-b border-bordercolor md:border-none' : 'shadow-lg'}` : `${isTipTop ? 'bg-transparent md:bg-gradient-to-b md:from-[#00000099] md:to-transparent' : 'bg-white shadow-lg'}`}  transition-all duration-300 items-center`}>
                 <Link href='/'>
-                    <img src='/ic-logo.svg' className={`${isTipTop ? 'md:w-[120px]' : 'md:w-[60px]'} transition-all duration-300 cursor-pointer`} />
+                    <img src='/ic-logo.svg' alt="Logo" className={`${isTipTop ? 'md:w-[120px]' : 'md:w-[60px]'} transition-all duration-300 cursor-pointer`} />
                 </Link>
                 <button
                     onClick={() => {
@@ -83,7 +83,7 @@ export const Navbar = ({ activePage }) => {
             <div className={`h-screen w-screen flex-col flex justify-between bg-white fixed top-0 left-0 z-40 ${isShowMobileNavOptions ? 'full-clip' : 'circle-clip'} transition-clip-path duration-500`}>
                 <div className='flex flex-row justify-between p-5 border-b border-bordercolor'>
                     <Link href='/'>
-                        <img src='/ic-logo.svg' className={`${isTipTop ? 'md:w-[120px]' : 'md:w-[60px]'} transition-all duration-300 c`} />
+                        <img src='/ic-logo.svg' alt="Logo" className={`${isTipTop ? 'md:w-[120px]' : 'md:w-[60px]'} transition-all duration-300 c`} />
                     </Link>
                     <button
                         onClick={() => {

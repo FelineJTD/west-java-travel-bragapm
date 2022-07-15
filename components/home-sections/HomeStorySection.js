@@ -43,10 +43,10 @@ export const HomeStorySection = () => {
             </div>
             <div className='flex flex-row justify-end mx-5 mt-8 md:mx-20 space-x-2.5 md:space-x-4 z-20'>
                 <button className='w-[33.33px] md:w-[41.67px] h-[33.33px] md:h-[41.67px] rounded-full z-20'>
-                    <img src='ic-arrow-rounded.svg' />
+                    <img alt='' src='ic-arrow-rounded.svg' />
                 </button>
                 <button className='w-[33.33px] md:w-[41.67px] h-[33.33px] md:h-[41.67px] rounded-full z-20'>
-                    <img src='ic-arrow-rounded.svg' className='transform rotate-180' />
+                    <img alt='' src='ic-arrow-rounded.svg' className='transform rotate-180' />
                 </button>
             </div>
         </section>

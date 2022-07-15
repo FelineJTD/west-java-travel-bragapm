@@ -12,13 +12,13 @@ export const TravelRecommendationMainItem = ({ data }) => {
 
     const date = new Date(data.created_at);
 
-    const errorImage = <img src='/img-about-thumbnail.jpg' className='mt-7 md:mt-0 rounded-lg h-[159.75px] md:h-[330px] w-full object-cover' />
+    const errorImage = <img alt='' src='/img-about-thumbnail.jpg' className='mt-7 md:mt-0 rounded-lg h-[159.75px] md:h-[330px] w-full object-cover' />
 
 
     return (
         <Link href={`/travel-tips/${data.id}`}>
             <a className='flex flex-col mx-5 mb-5 md:ml-20 md:mr-10 md:w-7/12 items-center hover:bg-bordercolor hover:bg-opacity-20 transition-all'>
-                {!data.travel_tips_files ? errorImage : !data.travel_tips_files[0] ? errorImage : <img src={`https://panel.westjavatravel.com/assets/${data.travel_tips_files[0]}`} className='mt-7 md:mt-0 rounded-lg h-[159.75px] md:h-[330px] w-full object-cover' />}
+                {!data.travel_tips_files ? errorImage : !data.travel_tips_files[0] ? errorImage : <img alt='' src={`https://panel.westjavatravel.com/assets/${data.travel_tips_files[0]}`} className='mt-7 md:mt-0 rounded-lg h-[159.75px] md:h-[330px] w-full object-cover' />}
                 <h3 className='font-bold font-montserrat text-lg md:text-3.5xl md:leading-10 text-dark text-center mt-5 capitalize md:max-w-[589px] twoline-text'>{data.title}</h3>
                 <p className='font-karla text-neutral text-sm md:text-base text-center mt-2.5 md:mt-3 md:max-w-[589px] twoline-text'>{data.deskripsi}</p>
                 <div className='mt-4 mb-8 flex flex-row items-center justify-center'>

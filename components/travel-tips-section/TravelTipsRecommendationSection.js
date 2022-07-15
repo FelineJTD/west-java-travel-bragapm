@@ -43,7 +43,7 @@ export const TravelTipsRecommendationSection = () => {
                             }}
                             className='w-[33.33px] md:w-[41.67px] h-[33.33px] md:h-[41.67px] rounded-full'
                         >
-                            <img src='/ic-arrow-rounded.svg' />
+                            <img alt='' src='/ic-arrow-rounded.svg' />
                         </button>
                         <button
                             onClick={() => {
@@ -53,7 +53,7 @@ export const TravelTipsRecommendationSection = () => {
                             }}
                             className='w-[33.33px] md:w-[41.67px] h-[33.33px] md:h-[41.67px] rounded-full'
                         >
-                            <img src='/ic-arrow-rounded.svg' className='transform rotate-180' />
+                            <img alt='' src='/ic-arrow-rounded.svg' className='transform rotate-180' />
                         </button>
                     </div>
                 </div>

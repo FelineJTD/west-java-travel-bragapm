@@ -49,7 +49,7 @@ export const TravelTipsItems = ({ data }) => {
         <div className='gap-8 md:gap-12 flex flex-col w-full'>
             {data.data.map((tips) => {
                 const date = new Date(tips.created_at);
-                const errorImage = <img src='/img-about-thumbnail.jpg' className='rounded-md h-[80px] md:h-[140px] w-[80px] md:w-[140px] object-cover ml-8 md:ml-20' />
+                const errorImage = <img alt='' src='/img-about-thumbnail.jpg' className='rounded-md h-[80px] md:h-[140px] w-[80px] md:w-[140px] object-cover ml-8 md:ml-20' />
                 return <Link key={tips.id} href={`/travel-tips/${tips.id}`}>
                     <a
                         className='flex flex-row'>
@@ -61,7 +61,7 @@ export const TravelTipsItems = ({ data }) => {
                                 <p className='font-karla text-neutral text-xs ml-4'>{date.toDateString()}</p>
                             </div>
                         </div>
-                        {!tips.travel_tips_files ? errorImage : !tips.travel_tips_files[0] ? errorImage : <img src={`https://panel.westjavatravel.com/assets/${tips.travel_tips_files[0]}`} className='rounded-md h-[80px] md:h-[140px] w-[80px] md:w-[140px] object-cover ml-8 md:ml-20' />}
+                        {!tips.travel_tips_files ? errorImage : !tips.travel_tips_files[0] ? errorImage : <img alt='' src={`https://panel.westjavatravel.com/assets/${tips.travel_tips_files[0]}`} className='rounded-md h-[80px] md:h-[140px] w-[80px] md:w-[140px] object-cover ml-8 md:ml-20' />}
                     </a>
                 </Link>
             })}
